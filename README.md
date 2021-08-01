@@ -1,8 +1,10 @@
 # My Reads: A Book Tracking App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af4c93d2-c571-4ac4-a2f5-8f7691f4f342/deploy-status)](https://app.netlify.com/sites/my-reads-bookshelf/deploys)
+
 MyReads is a web application that allows you to select and categorize books you have read, are currently reading, or want to read.
 
-It also allow you to search for books based on title and 
+It also allows you to search for books based on title and 
 author.
 
 ## Getting Started
@@ -27,7 +29,7 @@ git clone https://github.com/lumie31/reactnd-project-myreads-starter.git
 Navigate to http://localhost:3000 to view the project
 
 ## Live demo
-A fully functional demo of this project hosted on Netlify and is available here: https://MyReads.netlify.app
+A fully functional demo of this project hosted on Netlify and is available here: https://my-reads-bookshelf.netlify.app
 
 ## Built with
 - React
