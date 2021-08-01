@@ -7,28 +7,24 @@ class SearchBooks extends Component {
   render() {
     const {
       searchBooks,
-      books,
+      myBooks,
       onSearch,
       onResetSearch,
       onMove,
     } = this.props;
     return (
-      <div className="search-books">
-        <div className="search-books-bar">
-          <Link to="/">
-            <button className="close-search" onClick={onResetSearch}>
-              Close
-            </button>
-          </Link>
-          <SearchBooksInput onSearch={onSearch} />
+        <div className="search-books">
+          <div className="search-books-bar">
+            <Link to="/">
+              <button className="close-search" onClick={onResetSearch}>
+                Close
+              </button>
+            </Link>
+            <SearchBooksInput onSearch={onSearch} />
+          </div>
+          <SearchResults searchBooks={searchBooks} myBooks={myBooks} onMove={onMove} />
         </div>
-        <SearchResults
-          searchBooks={searchBooks}
-          books={books}
-          onMove={onMove}
-        />
-      </div>
-    );
+      )
   }
 }
 
